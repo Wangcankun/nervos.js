@@ -1,6 +1,6 @@
 import * as React from 'react'
-import './App.css'
-import nervos from './nervos'
+import nervos from '../../nervos'
+import './tools.css'
 const transaction = {}
 
 const initState = {
