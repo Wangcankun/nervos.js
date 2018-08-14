@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Account from '../containers/Account'
+import Contracts from '../containers/Contracts'
 import Editors from '../containers/Editors'
 import Tools from '../containers/Tools'
 const Contract = () => <div>Contract</div>
@@ -20,6 +21,10 @@ const routes = [
   {
     component: Editors,
     path: '/editors',
+  },
+  {
+    component: Contracts,
+    path: '/contracts',
   },
 ]
 export default routes
